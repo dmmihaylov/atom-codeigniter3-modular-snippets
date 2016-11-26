@@ -1,0 +1,17 @@
+{
+  "name": "atom-codeigniter3-modular-snippets",
+  "version": "0.0.1",
+  "description": "Simple and effective way to skip $this in most of your code. Used in CodeIgniter 3 with modular helper.",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmmihaylov/atom-codeigniter3-modular-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmmihaylov/atom-codeigniter3-modular-snippets/issues"
+  },
+  "license": "MIT"
+}

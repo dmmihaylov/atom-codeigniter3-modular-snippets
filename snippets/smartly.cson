@@ -1,0 +1,10 @@
+'.php':
+  'Session::data':
+    'prefix': 'smsd'
+    'body': "Session::data('${1:param}')$0"
+	'Input::post':
+    'prefix': 'smip'
+    'body': "Input::post('${1:param}')$0"
+	'Input::get':
+		'prefix': 'smig'
+		'body': "Input::get('${1:param}')$0"

@@ -1,10 +1,10 @@
-'.php':
-  'Session::data':
-    'prefix': 'csd'
-    'body': "Session::data('${1:param}')$0"
+'.source.php':
+	'Session::data':
+		'prefix': 'csd'
+		'body': "Session::data('${1:param}')$0"
 	'Input::post':
-    'prefix': 'cip'
-    'body': "Input::post('${1:param}')$0"
+		'prefix': 'cip'
+		'body': "Input::post('${1:param}')$0"
 	'Input::get':
 		'prefix': 'cig'
 		'body': "Input::get('${1:param}')$0"
